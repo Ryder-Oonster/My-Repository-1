@@ -1,0 +1,114 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2018  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+# Date created = 10:31:17  October 05, 2022
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		display_8bits_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSEMA5F31C6
+set_global_assignment -name TOP_LEVEL_ENTITY display_8bits
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "10:31:17  OCTOBER 05, 2022"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name QIP_FILE div8u.qip
+set_global_assignment -name QIP_FILE comp0.qip
+set_global_assignment -name QIP_FILE const10.qip
+set_global_assignment -name BDF_FILE display_8bits.bdf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to a
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to b
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to c
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to d
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to e
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to f
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to g
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to IN[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to IN[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to IN[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to IN[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to IN[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to IN[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to IN[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to IN[0]
+set_location_assignment PIN_AE26 -to a
+set_location_assignment PIN_AE27 -to b
+set_location_assignment PIN_AE28 -to c
+set_location_assignment PIN_AG27 -to d
+set_location_assignment PIN_AF28 -to e
+set_location_assignment PIN_AG28 -to f
+set_location_assignment PIN_AH28 -to g
+set_location_assignment PIN_AB12 -to IN[0]
+set_location_assignment PIN_AC12 -to IN[1]
+set_location_assignment PIN_AF9 -to IN[2]
+set_location_assignment PIN_AF10 -to IN[3]
+set_location_assignment PIN_AD11 -to IN[4]
+set_location_assignment PIN_AD12 -to IN[5]
+set_location_assignment PIN_AE11 -to IN[6]
+set_location_assignment PIN_AC9 -to IN[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to a1
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to b1
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to c1
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to d1
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to e1
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to f1
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to g1
+set_location_assignment PIN_AJ29 -to a1
+set_location_assignment PIN_AH29 -to b1
+set_location_assignment PIN_AH30 -to c1
+set_location_assignment PIN_AG30 -to d1
+set_location_assignment PIN_AF29 -to e1
+set_location_assignment PIN_AF30 -to f1
+set_location_assignment PIN_AD27 -to g1
+set_location_assignment PIN_AE29 -to b2
+set_location_assignment PIN_AB23 -to a2
+set_location_assignment PIN_AD29 -to c2
+set_location_assignment PIN_AC28 -to d2
+set_location_assignment PIN_AD30 -to e2
+set_location_assignment PIN_AC29 -to f2
+set_location_assignment PIN_AC30 -to g2
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to a2
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to b2
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to c2
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to d2
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to e2
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to f2
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to g2
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
